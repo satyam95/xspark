@@ -1,0 +1,172 @@
+/* ==========================================================================
+  01. GENERAL & BASIC STYLES
+  =========================================================================== */
+
+html {
+  -webkit-font-smoothing: antialiased;
+  font-size: 16px;
+}
+
+body {
+  font-family: "Rubik", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+.w-700 {
+  font-weight: 700;
+}
+
+/*------------------------------------------*/
+/*  LINK SETTINGS
+/*------------------------------------------*/
+
+a {
+  text-decoration: none;
+  -webkit-transition: all 400ms ease-in-out;
+  -moz-transition: all 400ms ease-in-out;
+  -o-transition: all 400ms ease-in-out;
+  -ms-transition: all 400ms ease-in-out;
+  transition: all 400ms ease-in-out;
+  color: inherit;
+}
+
+a:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:focus {
+  outline: none;
+  text-decoration: none;
+  color: inherit;
+}
+
+/*------------------------------------------*/
+/*  HEADERS
+/*------------------------------------------*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #353f4f !important;
+  line-height: 1 !important;
+  letter-spacing: 0;
+  margin: 0;
+}
+
+.font-jakarta .elementor-heading-title.elementor-size-default {
+  font-family: "Plus Jakarta Sans";
+}
+
+/*------------------------------------------*/
+/*  PARA FONT SIZE
+/*------------------------------------------*/
+
+p.elementor-heading-title.elementor-size-default {
+  font-family: "Rubik", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #6c757d;
+  line-height: 1.6666;
+  font-weight: 400;
+}
+
+/*------------------------------------------*/
+/*  FONT SIZE
+/*------------------------------------------*/
+.s-16 .elementor-heading-title.elementor-size-default {
+  font-size: 1rem;
+} /* 16px */
+
+.s-20 .elementor-heading-title.elementor-size-default {
+  font-size: 1.25rem;
+} /* 20px */
+
+.s-21 .elementor-heading-title.elementor-size-default {
+  font-size: 1.3125rem;
+} /* 21px */
+
+.s-22 .elementor-heading-title.elementor-size-default {
+  font-size: 1.375rem;
+} /* 22px */
+
+.s-46 .elementor-heading-title.elementor-size-default {
+  font-size: 2.875rem;
+} /* 46px */
+
+.s-48 .elementor-heading-title.elementor-size-default {
+  font-size: 3rem;
+} /* 48px */
+
+.s-50 .elementor-heading-title.elementor-size-default {
+  font-size: 3.125rem;
+} /* 50px */
+
+.s-56 .elementor-heading-title.elementor-size-default {
+  font-size: 3.5rem;
+} /* 56px */
+
+/*------------------------------------------*/
+/*  FONT WEIGHT
+/*------------------------------------------*/
+
+.txt-upcase {
+  text-transform: uppercase;
+}
+
+.w-200 .elementor-heading-title.elementor-size-default {
+  font-weight: 200;
+}
+.w-300 .elementor-heading-title.elementor-size-default {
+  font-weight: 300;
+}
+.w-400 .elementor-heading-title.elementor-size-default {
+  font-weight: 400;
+}
+.w-500 .elementor-heading-title.elementor-size-default {
+  font-weight: 500;
+}
+.w-600 .elementor-heading-title.elementor-size-default {
+  font-weight: 600;
+}
+.w-700 .elementor-heading-title.elementor-size-default {
+  font-weight: 700;
+}
+.w-800 .elementor-heading-title.elementor-size-default {
+  font-weight: 800;
+}
+.w-900 .elementor-heading-title.elementor-size-default {
+  font-weight: 900;
+}
+
+/*------------------------------------------*/
+/*  Button
+/*------------------------------------------*/
+
+.blue-btn a {
+  font-size: 20px;
+  padding: 22px 66px;
+  color: #fff !important;
+  border-color: #7b5dd6 !important;
+  background-color: #7b5dd6 !important;
+  line-height: 1;
+  font-weight: 500 !important;
+  border-radius: 6px;
+  text-align: center;
+  font-family: "Rubik" !important;
+  text-decoration: none;
+}
+
+.line-125 .elementor-heading-title.elementor-size-default {
+  line-height: 1.25 !important;
+}
